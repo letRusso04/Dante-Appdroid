@@ -37,7 +37,7 @@ function Login() {
         resizeMode="cover"
         style={styles.ImageInfo}
       >
-        <Text style={[{ fontSize: 40 }, styles.textmain]}>Dante Aligheri</Text>
+        <Text className="flex-1 items-center font-monospace text-white">Dante Aligheri</Text>
         <Text style={[{ fontSize: 20, marginBottom: 80 }, styles.textmain]}>
           Artificial Intelligence
         </Text>
